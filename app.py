@@ -44,7 +44,7 @@ if st.button("Predict"):
                for (name, (lo, hi)), val in zip(RANGES.items(), values)
                if val < lo or val > hi]
     if outside:
-        st.warning("Warning: these inputs are outside the range of the training data, "
+        st.warning("Warning: these inputs are outside the range of database, "
                    "so the prediction should be treated with caution:\n\n- "
                    + "\n- ".join(outside))
 
