@@ -57,5 +57,5 @@ st.sidebar.title("Instructions")
 st.sidebar.write("""
 1. Input the features (see the range in each help tip).
 2. Click on the 'Predict' button to see the prediction.
-3. A warning appears if any input is outside the training data range.
+3. A warning appears if any input is outside the database range.
 """)
